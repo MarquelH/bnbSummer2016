@@ -1,0 +1,823 @@
+@font-face {
+    font-family: 'texgyreadventorregular';
+    src: url('../fonts/texgyreadventor-regular-webfont.eot');
+    src: url('../fonts/texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/texgyreadventor-regular-webfont.woff') format('woff'),
+         url('../fonts/texgyreadventor-regular-webfont.ttf') format('truetype'),
+         url('../fonts/texgyreadventor-regular-webfont.svg#texgyreadventorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'texgyreadventorbold';
+    src: url('../fonts/texgyreadventor-bold-webfont.eot');
+    src: url('../fonts/texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/texgyreadventor-bold-webfont.woff') format('woff'),
+         url('../fonts/texgyreadventor-bold-webfont.ttf') format('truetype'),
+         url('../fonts/texgyreadventor-bold-webfont.svg#texgyreadventorbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'texgyreadventoritalic';
+    src: url('../fonts/texgyreadventor-italic-webfont.eot');
+    src: url('../fonts/texgyreadventor-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/texgyreadventor-italic-webfont.woff') format('woff'),
+         url('../fonts/texgyreadventor-italic-webfont.ttf') format('truetype'),
+         url('../fonts/texgyreadventor-italic-webfont.svg#texgyreadventoritalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'texgyreadventorbold_italic';
+    src: url('../fonts/texgyreadventor-bolditalic-webfont.eot');
+    src: url('../fonts/texgyreadventor-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/texgyreadventor-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/texgyreadventor-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/texgyreadventor-bolditalic-webfont.svg#texgyreadventorbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: 'texgyreadventorregular', sans-serif;
+	margin:0;
+	padding:0;
+}
+
+
+
+::-o-selection { background:#e2a806; color: #fff; text-shadow: none; }
+::-moz-selection { background: #e2a806; color: #fff; text-shadow: none; }
+::selection { background: #e2a806; color: #fff; text-shadow: none; }
+
+*, *:after, *:before { border-box; box-sizing: border-box; }
+
+a {
+	text-decoration:none;
+	color:#023469;
+}
+
+
+h2 {
+	font-family: 'texgyreadventorregular', sans-serif;
+	font-size:200%;
+	line-height:100%;
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+}
+
+h3 {
+	font-family: 'texgyreadventorregular', sans-serif;
+	margin:0;
+	padding:0;
+}
+
+h4 {
+	font-family: 'texgyreadventorregular', sans-serif;
+	margin:0;
+	padding:0;
+	letter-spacing:1px;
+}
+
+
+#headerWrapper {
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+#header {
+	width:960px;
+	margin:0 auto 30px;
+	padding-bottom:30px;
+}
+
+#headerLeft {
+	width:520px;
+	float:left;
+}
+
+#headerRight {
+	width:410px;
+	padding-top:60px;
+	padding-left:30px;
+	float:right;
+	font-family:'texgyreadventorregular', sans-serif;
+	font-size:85%;
+}
+
+
+#navigation {
+	width:960px;
+	font-size:115%;
+	letter-spacing:1px;
+	margin:0 auto;
+	text-align:center;
+}
+
+#navigation ul li {
+	display:inline-block;
+	list-style:none;
+	list-style-type: none;
+	padding: 0;
+    float:left;
+	color:#918604;
+	font-family: 'texgyreadventorbold';
+	text-transform:uppercase;
+}
+
+#navigation a {
+	color:rgba(2, 52, 104, 1);
+	padding:5px;
+	margin-right:10px;
+	
+   -webkit-transition: background-color .3s, color .3s linear;  
+   -moz-transition: background-color .3s, color .3s linear;  
+   -o-transition: background-color .3s, color .3s linear;  
+   -ms-transition: background-color .3s, color .3s linear;  
+    transition: background-color .3s, color .3s linear; 
+}
+
+#navigation a:hover {
+	color:rgba(225, 168, 6, 1);
+	background-color:rgba(2, 52, 104, 1);
+}
+	
+.blueBox {
+	width:230px;
+	height:220px;
+	margin:5px;
+	padding:10px;
+	color:#fff;
+	background-color:#023469;
+	display:inline-block;
+	font-size:20px;
+	float:left;
+}
+
+.yellowBox {
+	width:230px;
+	height:220px;
+	margin:5px;
+	padding:10px;
+	color:#fff;
+	background-color:#e2a806;
+	display:inline-block;
+	font-size:20px;
+	float:left;
+}
+
+#blueBanner {
+	width:100%;
+	background-color:#022951;
+	margin:0;
+	padding:0;
+}
+
+#banner {
+	width:960px;
+	margin:0 auto;
+	padding:40px 0px;
+	color:#fff;
+	font-family: 'texgyreadventorregular', sans-serif;
+	font-size:180%;
+	text-transform:uppercase;
+}
+
+#banner p {
+	color:#fff;
+	font-family: 'texgyreadventorregular', sans-serif;
+	font-size:105%;
+	letter-spacing:1px;
+}
+
+#bannerLeft {
+	width:500px;
+	padding-right:20px;
+	float:left;
+}
+
+#bannerRight {
+	width:400px;
+	float:left;
+	font-size:180%;
+	font-weight:bold;
+}
+
+#bannerRight h2 {
+	font-size:200%;
+	font-weight:normal;
+	color:#fff;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing:1px;
+}
+
+#blueBanner {
+	width:100%;
+	padding:50px 0px;
+	color:#fff;
+	background-color:#023469;
+	clear:both;
+}
+
+#blueBanner p {
+	font-size:80%;
+	line-height:24px;
+}
+
+#blueBanner h2 {
+	font-size:175%;
+	letter-spacing:2px;
+}
+
+#blueBanner h3 {
+	font-size:135%;
+	letter-spacing:1px;
+	padding:0;
+	margin:0;
+	font-style:italic;
+}
+
+#mainWrapper {
+	width:100%;
+}
+
+#mainContent {
+	width:960px;
+	margin:60px auto;
+	border-bottom:thin solid #e2a806;
+}
+
+#missionAndVisionContent{
+	width:960px;
+	margin:60px auto;
+	border-bottom:thin solid #e2a806;
+	}
+	
+#ourBoardContent{
+	width:960px;
+	/*margin:60px auto;*/
+	border-bottom:thin solid #000000;
+	}
+
+#bio {
+	width:800px;
+	margin: 0 auto;
+	text-align:justify;
+}
+
+#applyWrapper {
+	width:100%;
+
+}
+
+#applyContent {
+	width:960px;
+	margin:0 auto;
+}
+
+#mentorship {
+	width:50%;
+	float:left;
+	
+}
+
+#scholarship {
+	width:50%;
+	float:left;
+	
+}
+
+#mentorship img, #scholarship img {
+	width:100%;
+	min-width:100%;
+}
+
+#mentorshipDiv {
+	width:100%;
+	color:#333;
+	background-color:#e2a806;
+}
+
+#scholarshipDiv {
+	width:100%;
+	color:#000;
+	background-color:#ff0014;
+}
+
+#mentorshipInfo {
+	padding:50px;
+	font-size:16px;
+	color:#000;
+	line-height:30px;
+}
+
+#mentorshipInfo h2 {
+	font-family: 'texgyreadventorregular', sans-serif;
+	font-size:150%;
+	line-height:120%;
+	margin:0;
+	padding:0;
+	color:#000;
+}
+
+#scholarshipInfo {
+	padding:50px;
+	font-size:16px;
+	color:#fff;
+	line-height:30px;
+}
+
+.scholarshipButton {
+	font-family: 'texgyreadventorbold';
+	padding:20px;
+	text-transform:uppercase;
+	color:#ff0014;
+	background-color:#fff;
+	
+   -webkit-transition: background-color .3s, color .3s linear;  
+   -moz-transition: background-color .3s, color .3s linear;  
+   -o-transition: background-color .3s, color .3s linear;  
+   -ms-transition: background-color .3s, color .3s linear;  
+    transition: background-color .3s, color .3s linear;
+}
+
+.scholarshipButton:hover {
+	padding:20px;
+	text-transform:uppercase;
+	color:#fff;
+	background-color:#e2a806;
+}
+
+.mentorshipButton {
+	font-family: 'texgyreadventorbold';
+	padding:20px;
+	text-transform:uppercase;
+	color:#fff;
+	background-color:#ff0014;
+	
+   -webkit-transition: background-color .3s, color .3s linear;  
+   -moz-transition: background-color .3s, color .3s linear;  
+   -o-transition: background-color .3s, color .3s linear;  
+   -ms-transition: background-color .3s, color .3s linear;  
+    transition: background-color .3s, color .3s linear;
+}
+
+.mentorshipButton:hover {
+	padding:20px;
+	text-transform:uppercase;
+	color:#ff0014;
+	background-color:#fff;
+}
+
+
+.column1 {
+	width:32%;
+	float:left;
+}
+
+.column2 {
+	width:32%;
+	float:left;
+}
+
+.column3 {
+	width:32%;
+	float:left;
+}
+
+
+/* About Content */
+
+#aboutLeft {
+	width:420px;
+	padding-right:20px;
+	float:left;
+	line-height:24px;
+	word-spacing:2px;
+}
+
+#aboutRight {
+	width:400px;
+	padding-left:20px;
+	padding-top:88px;
+	float:left;
+}
+
+.aboutCol1 {
+	width:32%;
+	padding:.5%;
+	float:left;
+}
+
+.aboutCol2 {
+	width:32%;
+	padding:.5%;
+	float:left;
+}
+
+.aboutCol3 {
+	width:32%;
+	padding:.5%;
+	float:left;
+}
+
+.aboutCol4 {
+	width:32%;
+	padding:.5%
+	float:left;
+	}
+
+/* Awareness Content */
+
+#awarenessWrapper {
+	width:100%;
+	background-color:#e2a806;
+	margin:0 0 50px;
+	padding:0;
+}
+
+#awarenessContent {
+	width:960px;
+	margin:0 auto;
+	padding:40px 0px;
+	color:#000;
+	font-family: 'texgyreadventorregular', sans-serif;
+	font-size:105%;
+	line-height:145%;
+}
+
+#awarenessContent h1 {
+	font-family: 'texgyreadventorregular', sans-serif;
+	font-size:200%;
+	line-height:100%;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+}
+
+#awarenessContent ul li {
+	padding-bottom:10px;
+}
+
+.awarenessCol1 {
+	width:32%;
+	padding:.5%;
+	float:left;
+}
+
+.awarenessCol1 img {
+	width:100%;
+	min-width:100%;
+	max-width:100%;
+}
+
+.awarenessCol2 {
+	width:32%;
+	padding:.5%;
+	float:left;
+}
+
+.awarenessCol3 {
+	width:32%;
+	padding:.5%;
+	float:left;
+}
+
+.awarenessCol2 ul li {
+	font-size:14px;
+	line-height:20px;
+	font-weight:bold;
+	list-style:none;
+	padding:0;
+	margin:0;
+	
+}
+
+#contactLeft {
+	width:45%;
+	padding:2%;
+	margin-right:5%;
+	float:left;
+	text-align:left;
+	background-color:#e2a806;
+}
+
+#contactRight {
+	width:50%;
+	float:left;
+	text-align:left;
+}
+
+.formLeft {
+	width:100px;
+	padding-right:10px;
+	float:left;
+	text-align:right;
+}
+
+.formRight {
+	width:300px;
+	float:left;
+	text-align:left;
+}
+
+/* Featured Winners Content */
+
+#featuredWrapper {
+	width:100%;
+}
+
+.featured:nth-child(1n+0) {
+	width:960px;
+	margin:0 auto;
+	overflow:auto;
+	padding:25px;
+	background-color:#023469;
+	color:#fff;
+}
+
+.featured:nth-child(2n+0) {
+	width:960px;
+	margin:0 auto;
+	overflow:auto;
+	padding:25px;
+	background-color:#fff;
+	color:#333;
+}
+
+.featured:nth-child(3n+0) { 
+	width:960px;
+	margin:0 auto;
+	overflow:auto;
+	padding:25px;
+	background-color:#e2a806;
+	color:#333;
+}
+
+
+.featuredPic {
+	width:300px;
+	float:left;
+	margin-right:10px;
+}
+
+.featuredContent {
+	width:600px;
+	float:left;
+}
+
+.featuredContent h2 {
+	font-size:130%;
+}
+
+.featuredContent p {
+	font-size:100%;
+}
+
+.featuredQuote {
+	font-size:120%;
+	font-family:'texgyreadventorbold_italic', sans-serif;
+}
+/* Footer Content */
+
+#footerWrapper {
+	width:100%;
+	background-color:#023469;
+}
+
+#footer {
+	width:960px;
+	margin:0 auto;
+	padding:35px 0px;
+	color:#fff;
+	font-size:12px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	text-align:center;
+}
+
+#footer ul li {
+	list-style:none;
+	display:inline-block;
+}
+
+#footer a {
+	font-size:120%;
+	color:#e2a806;
+	padding:3px;
+	
+	-webkit-transition: color 0.4s, background-color 0.4s; /* For Safari 3.1 to 6.0 */
+	-moz-transition: color 0.4s, background-color 0.4s; /* For Firefox */
+    transition: color 0.4s, background-color 0.4s;
+}
+
+#footer a:hover {
+	color:#e2a806;
+	background-color:#fff;
+}
+
+.toTop a {
+	font-size:120%;
+	color:#fff;
+	padding:3px;
+}
+
+.toTop a:hover {
+	color:#918504;
+	background-color:#fff;
+}
+
+.clearAll {
+	float:none;
+	clear:both;
+}
+
+
+
+
+/*  Form Styles*/
+
+input {
+	border:none;
+	background-color:rgba(2, 52, 105, 0.85);
+	color:#fff;
+	font-family: 'texgyreadventorregular', sans-serif;
+	font-size:14px;
+	letter-spacing:1px;
+	padding:5px;
+	
+	transition: background-color, 0.4s;
+	-moz-transition: background-color, 0.4s; /* Firefox 4 */
+	-webkit-transition: background-color, 0.4s; /* Safari and Chrome */
+	-o-transition: background-color, 0.4s; /* Opera */
+}
+
+input:focus {
+	background-color:#023469;
+	color:#fff;
+	outline:none;
+	
+}
+
+textarea {
+	border:none;
+	background-color:rgba(2, 52, 105, 0.85);
+	color:#fff;
+	font-family: 'texgyreadventorregular', sans-serif;
+	font-size:14px;
+	letter-spacing:1px;
+	padding:5px;
+	resize:none;
+	
+	transition: background-color, 0.4s;
+	-moz-transition: background-color, 0.4s; /* Firefox 4 */
+	-webkit-transition: background-color, 0.4s; /* Safari and Chrome */
+	-o-transition: background-color, 0.4s; /* Opera */
+}
+
+textarea:focus {
+	background-color:#023469;
+	color:#fff;
+	outline:none;
+	
+}
+
+.wblack {
+	font-size:14px;
+	padding:7px;
+	border:none;
+	line-height:14px;
+	letter-spacing:1px;
+	background-color:#023469;
+	color:#fff;
+	vertical-align:top;	
+	
+	transition: background-color 0.4s;
+	-moz-transition: background-color 0.4s; /* Firefox 4 */
+	-webkit-transition: background-color 0.4s; /* Safari and Chrome */
+	-o-transition: background-color 0.4s; /* Opera */
+}
+
+.wblack:hover {
+	border:none;
+	line-height:14px;
+	background-color:#ccc;
+	color:#023469;
+	vertical-align:top;
+
+		
+}
+/*li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    background-color: #ffffff;
+    color: #023469;
+    padding: 5px;
+    font-size: 100%;
+    font-family: 'texgyreadventorbold';
+    border: none;
+    cursor: pointer;
+   	letter-spacing:1px;
+	margin:0 auto;
+	text-transform:uppercase;
+	margin-right:10px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	color:rgba(225, 168, 6, 1);
+	background-color:rgba(2, 52, 104, 1);
+}
+
+li.dropdown {
+	position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+*/
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #ffffff;
+    color: #023469;
+    padding: 5px;
+    font-size: 100%;
+    font-family: 'texgyreadventorbold';
+    border: none;
+    cursor: pointer;
+   	letter-spacing:1px;
+	margin:0 auto;
+	text-align:center;
+	text-transform:uppercase;
+	margin-right:10px;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color:rgba(225, 168, 6, 1);
+	background-color:rgba(2, 52, 104, 1);
+}
